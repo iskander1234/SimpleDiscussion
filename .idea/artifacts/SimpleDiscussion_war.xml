@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SimpleDiscussion:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SimpleDiscussion</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SimpleDiscussion-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="SimpleDiscussion:war exploded" />
+    </root>
+  </artifact>
+</component>
